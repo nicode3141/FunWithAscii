@@ -17,7 +17,7 @@ def printFunction(width, r):  # r = radius
         final_image += "\n"
     print(final_image + "\n\n")
 
-sinewave = SineWave(1)
+sinewave = SineWave(1) # may stop after one run
 sinewave.play()
 a = 50
 while True:
